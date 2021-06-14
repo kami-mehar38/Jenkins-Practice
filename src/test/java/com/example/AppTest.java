@@ -19,4 +19,12 @@ public class AppTest {
     public void shouldAnswerWithTrue() {
         assertEquals(0, list.size());
     }
+
+    /**
+     * Rigorous Test :-)
+     */
+    @Test
+    public void shouldAnswerWithFalse() {
+        assertEquals(10, list.size());
+    }
 }
