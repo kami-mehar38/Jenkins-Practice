@@ -1,6 +1,8 @@
 package com.example;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertThat;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -18,5 +20,11 @@ public class AppTest {
     @Test
     public void shouldAnswerWithTrue() {
         assertEquals(0, list.size());
+    }
+
+    @Test
+    public void shouldAssert() {
+        final String name = "Kamran";
+        assertEquals(name, name);
     }
 }
